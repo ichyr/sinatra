@@ -2,8 +2,15 @@
 require "sinatra"
 require "sinatra/activerecord"
 
-require_relative "models/post"
+# configuration part
+set :database, "sqlite3:///blog.db"
+
+# Require all models
+require_relative "models/init"
+
+# Require helpers
 require_relative "helpers/init"
+
+# Require routes
 require_relative "routes/init"
  
-set :database, "sqlite3:///blog.db"
