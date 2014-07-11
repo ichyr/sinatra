@@ -1,6 +1,15 @@
 Sinatra Warden Template
 =======================
 
+To run this application one needs to
+---
+
+* bundle install
+* thin start
+
+Native text continued
+---
+
 As a developer sometimes I need to create small Web Applications that needs
 authentication and others stuffs, but that makes me create them from
 scratch, then I decided to create some little repos called SST (Sinatra Site
