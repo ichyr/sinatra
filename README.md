@@ -37,5 +37,12 @@ sinatra
 
 7. **Example of using Sinatra::JSON from sinatra-contrib gem**
 
-  Based on *http://www.sinatrarb.com/contrib/json.html*
+  Based on
 
+  *http://www.sinatrarb.com/contrib/json.html*
+
+8. **Sinatra Warden Template**
+
+  Application template with usage of Warden for user authentification. Copied from
+
+  *https://github.com/erikwco/sinatra-warden-template*

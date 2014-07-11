@@ -1,0 +1,22 @@
+== slim :head
+
+div.row
+  div.large-12.columns.text-center.cu-404-box
+    h3 Welcome to main
+
+div.row
+  div.large-4.columns.text-center
+    a href="/" Index
+  div.large-4.columns.text-center
+    a href="/protected" Protected Resource
+  div.large-4.columns.text-center
+    a href="/auth/logout" Logout
+
+
+
+- if flash.success
+  div.row
+    div.large-12.columns
+      div.alert-box.warning.radius [data-alert] 
+        | #{flash.success} 
+        a.close href="#" &times;
