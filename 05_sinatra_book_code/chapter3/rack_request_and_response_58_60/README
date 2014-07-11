@@ -1,0 +1,24 @@
+Dealing with HTTP is simple: you get
+a request and return a response. 
+
+Rack defines a protocol for communication between an application object 
+(provided by the webapp: Sinatra, Rails, etc.) and a HTTP server (thin, webrick, mongrel ...)
+
+A Rack application is a Ruby object that responds
+to a method named "call". The method "call" takes exactly one argument, 
+the "environment" and returns
+an "Array" of exactly three values: 
+  1. The status code, (for example 200) 
+  2. the headers (a hash-like object), and 
+  3. the body (an array-like object. Has to respond to "each").
+
+The application object is usually referred as an "end-point"
+The server is often called the "handler"
+
+The examples in this directory were taken from:
+
+  - my_sinatra.rb pages 59-60
+  - rackexample https://github.com/chneukirchen/rack/tree/master/example
+
+See Chapter 16. Rack of the book "Rails in a Nutshell"
+  http://ofps.oreilly.com/titles/9780596521424/rack.html

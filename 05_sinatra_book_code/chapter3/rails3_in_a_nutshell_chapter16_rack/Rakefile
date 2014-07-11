@@ -1,0 +1,19 @@
+desc "rackup config_1"
+task :t1 do
+  sh "rackup config_1.ru"
+end
+
+desc "rackup config_2"
+task :t2 do
+  sh "rackup config_2.ru"
+end
+
+desc "rackup config_3"
+task :t3 do
+  sh "rackup config_3.ru"
+end
+
+desc "get answer"
+task :a do
+  sh "curl http://localhost:9292"
+end
