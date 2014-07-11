@@ -34,3 +34,8 @@ sinatra
   Delopyment of simple app with Unicorn web server and Capistrano gem.
 
   *https://github.com/stulentsev/sincapun*
+
+7. **Example of using Sinatra::JSON from sinatra-contrib gem**
+
+  Based on *http://www.sinatrarb.com/contrib/json.html*
+
