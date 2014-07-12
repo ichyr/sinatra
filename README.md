@@ -46,3 +46,9 @@ sinatra
   Application template with usage of Warden for user authentification. Copied from
 
   *https://github.com/erikwco/sinatra-warden-template*
+
+9. **Sinatra, MongoDB, Backbone.js -- TODO Application**
+
+  Sample application from Addy Osmanies repository
+
+  *https://github.com/addyosmani/backbone-fundamentals/tree/gh-pages/practicals/stacks/option3*
